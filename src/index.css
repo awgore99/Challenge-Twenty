@@ -3,4 +3,24 @@ body {
   padding: 10px;
   font-family:  "Helvetica Neue",sans-serif;
 }
-
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.navbar {
+  background-color: black;
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.header-font{
+  color: white;
+}
+.navbar a{
+  color: white;
+}
+.navbar a:hover{
+  background-color: yellow;
+  color: black;
+}

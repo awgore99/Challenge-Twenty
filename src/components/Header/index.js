@@ -4,11 +4,10 @@ export default class Header extends Component {
     return (
       <React.Fragment>
       
-      <header id="home">
-         <Nav />
+      <header className='flex-row'>
 
          <div>
-            <div>
+            <div className="header-font">
                <h1>Austin Gore</h1>
             </div>
          </div>
